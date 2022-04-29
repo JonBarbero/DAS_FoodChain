@@ -88,7 +88,7 @@ public class MenuItemAdapter extends RecyclerView.Adapter<MenuItemAdapter.MenuIt
         additem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //String url="https://inamtginamtg.000webhostapp.com/cart.php";
+                //String url="http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/cart.php";
                 if(qty.getText().toString().equals("0"))
                 {
                     Toast.makeText(context,"Please add Quantity of the Item..",Toast.LENGTH_SHORT).show();
