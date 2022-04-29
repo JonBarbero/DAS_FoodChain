@@ -91,7 +91,7 @@ public class RegisterActivity extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-                //url = new URL("https://inamtginamtg.000webhostapp.com/register.php");
+                //url = new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/register.php");
                 url = new URL(LoginActivity.weburl+"register.php");
 
 
