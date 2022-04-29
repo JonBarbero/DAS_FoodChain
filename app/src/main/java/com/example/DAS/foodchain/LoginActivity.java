@@ -102,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-                //url = new URL("https://inamtginamtg.000webhostapp.com/login.php");
+                //url = new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/login.php");
                 url = new URL(weburl+"login.php");
 
             } catch (MalformedURLException e) {
@@ -195,8 +195,8 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(LoginActivity.this, "Login successfull", Toast.LENGTH_LONG).show();
 
                 /*HttpHandler http=new HttpHandler();
-                String url1="https://inamtginamtg.000webhostapp.com/getuserid.php?email="+etEmail.getText().toString();
-                String url2="https://inamtginamtg.000webhostapp.com/getuserid.php?email=manitejagande@gmail.com";
+                String url1="http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/getuserid.php?email="+etEmail.getText().toString();
+                String url2="http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/getuserid.php?email=sobron@gmail.com";
                 String response=http.makeServiceCall(url2);*/
                 /*JSONObject obj=null;
                 try {
