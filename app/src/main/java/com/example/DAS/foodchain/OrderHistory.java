@@ -102,7 +102,7 @@ public class OrderHistory  extends AppCompatActivity{
             try {
 
                 // Enter URL address where your php file resides
-                //url = new URL("https://inamtginamtg.000webhostapp.com/displaycurrentorders.php?email="+email);
+                //url = new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/displaycurrentorders.php?email="+email);
                 url = new URL(LoginActivity.weburl+"orderhistory.php?email="+email);
                 Log.i("url1",url.toString());
 
