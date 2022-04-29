@@ -45,7 +45,7 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
 
         try {
             em=getDefaults("userid",c);
-            //URL url=new URL("https://inamtginamtg.000webhostapp.com/getuserid.php?email="+em);
+            //URL url=new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/getuserid.php?email="+em);
             URL url=new URL(LoginActivity.weburl+"getuserid.php?email="+em);
             HttpURLConnection httpURLConnection=(HttpURLConnection)url.openConnection();
             InputStream inputStream=httpURLConnection.getInputStream();
