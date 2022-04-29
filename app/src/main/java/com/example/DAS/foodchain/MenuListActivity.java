@@ -119,7 +119,7 @@ public class MenuListActivity extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-               // url = new URL("https://inamtginamtg.000webhostapp.com/menu.php");
+               // url = new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/menu.php");
                 url = new URL(LoginActivity.weburl+"menu.php");
 
                 Log.i("url1",url.toString());
