@@ -42,7 +42,7 @@ public class ProfileActivity extends AppCompatActivity {
 
 
         try {
-            url = new URL("https://inamtginamtg.000webhostapp.com/getuserid.php");
+            url = new URL("http://ec2-52-56-170-196.eu-west-2.compute.amazonaws.com/jbarbero004/WEB/foodorder/customer/getuserid.php");
             conn = (HttpURLConnection)url.openConnection();
             conn.setReadTimeout(READ_TIMEOUT);
             conn.setConnectTimeout(CONNECTION_TIMEOUT);
